@@ -1,0 +1,1 @@
+{"MYHOST":"localhost","MYROOT":"ruili","MYPASS":"09030326hp","MYDB":"project","AUSER":"root","APASS":"d61065214c422a65cb9d62b6f9fe1d1af35507c5","PS":"MYPS","SMTPHOST":"smtp.gmail.com","MYMAILER":"henrywrlxbox@gmail.com","MYMAILERPASS":"09030326hp","FROMNAME":"ruili","DOMAIN":"www.demo1.com","MYNAME":"logindemo"}

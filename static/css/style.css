@@ -1,0 +1,187 @@
+
+#header-area{
+	padding:14px 0 8px;
+}
+.areas{
+	width:1000px;
+	margin: 0 auto;
+}
+#area{
+	width:100%;
+	background:#eee;
+	min-height: 550px;
+}
+
+#myarea{
+	width:1000px;
+	margin:0px auto;
+	display: table;
+	font-family: "微软雅黑";
+}
+
+#table{
+	float: left;
+	width:700px;
+}
+
+#table-title{
+	background:#fff;
+	margin:30px 0 20px;
+	padding:20px 20px 15px;
+}
+
+#table-title-txt{
+	font-size:27px;
+}
+
+#table-title-login{
+	margin-left: 315px;
+	color:#666;
+	letter-spacing: 1px;
+	font-size:13px;
+}
+
+#table-title-login a,#read{
+	color:#366232;
+}
+
+#table-title-login a:hover,#read:hover{
+	text-decoration: underline;
+}
+
+.table-cell{
+	margin:20px 0 20px;
+	background:#f7f7f7;
+}
+
+.rows{
+	padding:16px 21px;
+	display: table;
+}
+
+.rowstitle{
+	float: left;
+	width:60px;
+	color:#555;
+	font-size: 13px;
+	text-align: right;
+	padding:8px 0 0;
+}
+.rowsinput{
+	width:230px;
+	float: left;
+	padding:0 10px;
+	position: relative;
+}
+.rowsinput input{
+	padding:7px;
+	width:210px;
+	font-size:14px;
+	font-family: arial;
+	color:#777;
+	border:1px solid #ddd;
+	position: relative;
+	z-index: 10;
+}
+.rowsdes{
+	float: left;
+	padding:8px 0 0;
+	font-size:12px;
+	color:#999;
+}
+
+#submit{
+	width:225px;
+	background: #93b874;
+	color:#fff;
+	font-weight: bold;
+	border:0;
+	border-radius: 4px;
+	font-size: 13px;
+}
+
+#other{
+	width: 300px;
+	float: left;
+	display: table;
+}
+
+#other-area{
+	width:240px;
+	float: right;
+	background: #f7f7f7;
+	margin:30px 0 20px;
+	text-align: center;
+	color:#666;
+	padding:10px;
+}
+
+.success{
+	display: none;
+	background: url(/static/img/icos.png) no-repeat 0 -16px;
+	width:16px;
+	height:16px;
+}
+
+.errors{
+	display: none;
+	background: url(/static/img/icos.png) no-repeat 0 -32px;
+	width:260px;
+	height:16px;
+	padding:0 0 0 25px;
+	color:#555;
+}
+
+select{
+	width:226px;
+	line-height:30px;
+	height:30px;
+	position: absolute;
+	left: 10px;
+	top:0;
+	z-index: 11;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#show-suc{
+	color:green;
+	display: none;
+	margin-left:50px;
+}
+
+.inlinebox{
+	width:100%;
+}
+.inlinetitle{
+	padding:15px 20px 13px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #e7e7e7;
+}
+.inlinearea{
+	width:100%;
+	background:#fff;
+	padding:17px 0 15px;
+}
+
+.subjectitem{
+	background:#f5f5f5;
+	display: table;
+	width:660px;
+	margin:0 auto;
+	border-bottom: 1px dashed #ccc;
+}
+
+.subjectitem-child{
+	float: left;
+	padding:8px 0 6px;
+}
+
+.item-name{
+	width:40%;
+}
+
+.item-timelimit,.item-total,.item-go{
+	width:20%;
+	text-align: center;
+}

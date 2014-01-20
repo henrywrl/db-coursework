@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^([\w\?]{4,15})$ index.php?action=$1
+RewriteRule ^([\w\?]{4,15})/([\w\?]{1,15})$ index.php?action=$1&opera=$2
+RewriteRule ^([\w\?]{4,15})/([\w\?]{1,15})/([\w\?]+)$ index.php?action=$1&opera=$2&opera2=$3
+RewriteRule ^([\w\?]{4,15})/([\w\?]{1,15})/([\w\?]+)/([\w\?]+)$ index.php?action=$1&opera=$2&opera2=$3&opera3=$4
