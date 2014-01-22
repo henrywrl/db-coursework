@@ -9,10 +9,6 @@ session_start();
 
 //定义根目录路径常量
 define('ROOTPATH',dirname(__FILE__).DIRECTORY_SEPARATOR);
- $host = "eu-cdbr-azure-west-b.cloudapp.net";
- $user = "b0fb04842942d5";
- $pwd = "3cfb25e0";
- $db = "ruiliATwUdoxAGie";
 
 /*
 * 获得动作符
